@@ -2,10 +2,12 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHtml5, faCss, faSquareJs, faReact, faGithub, faFigma, faLinux, faNodeJs } from '@fortawesome/free-brands-svg-icons';
 import tailwindIcon from '../../assets/1.svg'
 import posgreIcon from '../../assets/postgresql.svg'
+import { RiSupabaseFill } from "react-icons/ri";
+
 
 export function SkillCardFrontend () {
   return (
-    <section className="w-80 border-2 rounded-2xl text-center p-3 shadow-2xs shadow-black">
+    <section className="w-80 border-2 rounded-2xl text-center p-3 shadow-2xs bg-black/50 border-white/40 ">
       <h3 className="text-3xl font-bold mb-5">Frontend</h3>
 
       <ul className="flex flex-wrap text-5xl gap-3 justify-center">
@@ -21,12 +23,13 @@ export function SkillCardFrontend () {
 
 export function SkillCardBackend () {
   return (
-    <section className="w-80 h-35 border-2 rounded-2xl text-center p-3 shadow-2xs shadow-black">
+    <section className="w-80 h-35 border-2 rounded-2xl text-center p-3 shadow-2xs bg-black/50 border-white/40">
       <h3 className="text-3xl font-bold mb-5">Backend</h3>
 
       <ul className="flex flex-wrap text-5xl gap-3 justify-center items-center">
         <li><img src={posgreIcon} width={45} alt="" /></li>
         <li><FontAwesomeIcon className='text-green-600' icon={faNodeJs} /></li>
+        <li><RiSupabaseFill color='#3ECF8E'/></li>
       </ul>
     </section>
   )
@@ -34,7 +37,7 @@ export function SkillCardBackend () {
 
 export function SkillCardTools () {
   return (
-    <section className="w-80 h-35 border-2 rounded-2xl text-center p-3 shadow-2xs shadow-black">
+    <section className="w-80 h-35 border-2 rounded-2xl text-center p-3 shadow-2xs bg-black/50 border-white/40">
       <h3 className="text-3xl font-bold mb-5">Tools</h3>
 
       <ul className="flex flex-wrap text-5xl gap-3 justify-center items-center">
