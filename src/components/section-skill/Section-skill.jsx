@@ -11,7 +11,7 @@ export function SectionSkill () {
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore debitis consequuntur minus quos iusto ab deleniti quibusdam! Dicta aut facere ducimus nihil nisi dolor nemo magni eos reprehenderit accusamus!
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione inventore debitis consequuntur minus quos iusto ab deleniti quibusdam! Dicta aut facere ducimus nihil nisi dolor nemo magni eos
       </p>
-      <div className="flex gap-15">
+      <div className="flex flex-col lg:flex-row  md:items-center gap-15">
         <SkillCardFrontend/>
         <SkillCardBackend/>
         <SkillCardTools/>

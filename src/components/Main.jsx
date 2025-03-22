@@ -12,7 +12,7 @@ import { SectionProjects } from "./section-projects/section-project.jsx";
 
 export function Main (){
   return(
-    <main className="w-250 h-full flex flex-col justify-center items-center gap-10 py-5 text-white pt-30">
+    <main className="lg:w-250 w-full px-20 lg:px-0 h-full flex flex-col justify-center items-center gap-10 py-5 text-white pt-30">
       <Header/>
       <Presentacion/>
       <SectionContac/>
