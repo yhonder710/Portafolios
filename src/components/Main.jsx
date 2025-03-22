@@ -16,8 +16,8 @@ export function Main (){
       <Header/>
       <Presentacion/>
       <SectionContac/>
-      {/* <SectionSkill/>
-     <SectionProjects/> */}
+      <SectionSkill/>
+     <SectionProjects/>
     </main>
   )
 }
