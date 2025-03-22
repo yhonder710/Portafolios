@@ -11,7 +11,7 @@ import { MdOutlineMail } from "react-icons/md";
 export function SectionContac () {
   return(
     <div className="w-full">
-        <h2 className="text-center text-5xl font-bold mb-8">Social</h2>
+        <h2 className="text-center text-4xl sm:text-5xl font-bold mb-8">Social</h2>
         <div className="flex flex-col gap-5">
           <section className="flex justify-center gap-5 md:justify-evenly">
            <CardContact icon={<FaLinkedin size={50} color="#0A66C2"/>} text={'LinkedIn'}/>
