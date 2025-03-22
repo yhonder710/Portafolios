@@ -1,8 +1,8 @@
 export function Presentacion () {
   return (
     <>
-     <div className="w-full flex justify-around items-center gap-10">
-      <div className="w-160 flex flex-col gap-5">
+     <div className="w-full flex flex-col md:flex-row justify-around items-center gap-10">
+      <div className="w-full sm:160 flex flex-col gap-5">
         <h1 className="text-5xl font-bold">Hola es un placer, soy Kpito</h1>
         <p className="text-[18px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, deleniti porro! Possimus ratione error, ad deserunt, consequatur perspiciatis molestiae veniam ab laudantium delectus rerum corrupti minus blanditiis quisquam vel libero.</p>
       </div>
